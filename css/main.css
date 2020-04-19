@@ -9,10 +9,11 @@ footer {
   color: #fff;
 }
 
-input,
 textarea,
-select {
+select,
+input {
   border-color: #6e8c62;
+  border-width: thin;
 }
 
 .btn {
@@ -28,4 +29,8 @@ hr {
 
 span {
   color: #70ad55;
+}
+
+fieldset {
+  border: none;
 }
